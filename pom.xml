@@ -54,9 +54,8 @@
         </repository>
 
         <repository>
-            <id>central</id>
-            <name>bintray</name>
-            <url>http://jcenter.bintray.com</url>
+            <id>utilities.read</id>
+            <url>https://mymavenrepo.com/repo/g7imMuJgcL33EBRf9yJJ/</url>
         </repository>
     </repositories>
 
@@ -85,6 +84,11 @@
             <version>LATEST</version>
             <scope>compile</scope>
             <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>me.border</groupId>
+            <artifactId>Utilities</artifactId>
+            <version>2.9</version>
         </dependency>
     </dependencies>
 
